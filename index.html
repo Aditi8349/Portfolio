@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditi_Soni portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style copy.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav class="navbar bg h-nav-resp">
+                <ul class="nav-list v-class-resp">
+                    <div class="logo"><img src="Capture1.JPG" alt="logo"></div>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+
+                </ul>
+                <div class="rightNav v-class-resp">
+                    <input type="text" name="search" id="search" placeholder="Search">
+                    <button class="btn btn-sm">search</button>
+                </div>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+        <div class="container1">
+            <div class="header-img"><img class="img2" src="AditiImage.jpg" alt="mypic">
+            </div>
+            <div class="header-text">
+                <P>Software Engineer</P>
+                <h1>Hi, I'm <span>Aditi </span>Soni <br> from India</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!--about Me page-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="My Picture.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="para">
+                        “To work in an organisation which provides me with ample opportunities to enhance my skills and
+                        knowledge along with contributing to
+                        the growth of the organisation.”
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Project</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-container active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Design</span><br>Website Development</li>
+                            <li><span>JAVA</span><br>Java Developer</li>
+                            <li><span>MySQL</span><br>Database Management</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-container" id="Experience">
+                        <ul>
+                            <li><span>Bank Management System</span><br> "Developed and implemented efficient bank management
+                                software,it is a Web Application  which is developed in Java Programming
+                                Language. 
+                            </li>
+                            <li><span>Library Management System</span><br>Library Management System built using Swing Framework and MySQL</li>
+                            <li><span>Portfolio</span><br>Using HTML,CSS,Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-container" id="Education">
+                        <ul>
+                            <li><span>B.tech in 2024</span><br>From Global Institute of Engineering and Management in ECE Stream</li>
+                            <li><span>12th in 2020</span><br>Samdariya Public School </li>
+                            <li><span>10th in 2018</span><br>Samdariya Public School</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title sub-sm">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I have build many web design page. if you want to build web page contact me below.</p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>MySQL</h2>
+                    <p>I am able to manage database and fatch data from the database contact me below.</p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h2>JAVA</h2>
+                    <p>Contact Me For Advance Java Based Projects. </p>
+                    <a href="#">Learn more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------portfolio------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title sub-sm">
+                My Work
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Bank Management System</h3>
+                        <p>The Online Bank Management System, built using Servlet,JSP,MySQl, allows users to create
+                            and manage their account optimizing operations and enhancing customer
+                            experience.</p>
+                        <a href="https://textutils-react-editor.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Library Management System</h3>
+                        <p>A Library Management System (LMS) is a software application designed to streamline and automate the management of a library's resources and operations,Built using Swing JFrame and MySQL.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Aditi8349/My-second-repo.git" target="_blank" class="btn1">See more</a>
+        </div>
+    </div>
+
+    <!---------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title sub-sm sub-sm1">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>shrasti8349@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91 8349627883</p>
+                    <div class="social-icons">
+                        <a href="https://leetcode.com/Aditi_Soni/" target="_blank"><i class="fas fa-code"></i></a>
+                        <a href="https://github.com/git1bhay" target="_blank"><i class="fab fa-github-square"></i></a>
+                        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aditi-soni-1b7171223" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="Resume (3).pdf" download class="btn1 btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn1 btn2 btn3">Submit</button>
+                    </form>
+                    <span id="msg">
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; Aditi. Made with <i class="fas fa-heart"></i> by WebX Aditi</p>
+        </div>
+    </div>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbza7y1624XEtbzNZ489gbQ0eOrEHJWvrbV2Hx3NEyJeR7CQDtHqk-SLEyQXIlLzUeN6/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+
+</html>
